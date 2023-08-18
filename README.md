@@ -1,14 +1,17 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# JATE Text Editor
+
+ 
 
 [![Heroku App](https://img.shields.io/badge/Heroku-Deployed-blueviolet?logo=heroku)](https://github.com/jenho-webdev/JATE_Text_Editor)
 [![Github Repo](https://img.shields.io/badge/GitHub_Project_Board-Deployed-blue?logo=github)](https://github.com/jenho-webdev/JATE_Text_Editor)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jenho-webdev/Jate_Text_Editor/blob/main/LICENSE)
 
 
-A simple text editor that runs in the browser as a Progressive Web App (PWA). This application allows you to create and edit notes or code snippets, even without an internet connection. The content you create is stored using IndexedDB for data persistence, and the app is fully functional offline.
+A simple text editor that runs in the browser as a Progressive Web App (PWA). This application allows you to create and edit notes or code snippets, even without an internet connection. The content you create is stored using IndexedDB for data persistence, and the app is fully functional offline and it can be installed as an "app" to different devices. 
+
 ## Table of Contents
 
-- [19 Progressive Web Applications (PWA): Text Editor](#19-progressive-web-applications-pwa-text-editor)
+- [JATE Text Editor](#jate-text-editor)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Usage](#usage)
