@@ -55,7 +55,7 @@ export const getDb = async () => {
     const result = await store.getAll();
 
     console.log("🚀 - Data retrieved from IndexedDB:", result);
-    return result;
+    return result?.value;
   } catch (e) {
     console.error(e);
   }
