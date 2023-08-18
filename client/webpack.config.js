@@ -3,9 +3,6 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
-// DONE: Add and configure workbox plugins for a service worker and manifest file.
-// DONE: Add CSS loaders and babel to webpack.
-
 module.exports = () => {
   return {
     mode: "development",
@@ -16,13 +13,14 @@ module.exports = () => {
     output: {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
-      publicPath: "/",
+      publicPath: "/", // Create a public path for the app
     },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Webpack Plugin",
       }),
+      // Add and configure workbox plugins for a service worker and manifest file.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -49,6 +47,7 @@ module.exports = () => {
     module: {
       rules: [
         {
+          // Add CSS loaders and babel to webpack.
           //CSS loaders
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
