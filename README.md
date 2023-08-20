@@ -2,7 +2,7 @@
 
  
 
-[![Heroku App](https://img.shields.io/badge/Heroku-Deployed-blueviolet?logo=heroku)](https://github.com/jenho-webdev/JATE_Text_Editor)
+[![Heroku App](https://img.shields.io/badge/Heroku-Deployed-blueviolet?logo=heroku)](https://jate-text-editor-pwa-bbf3bbfe2365.herokuapp.com/)
 [![Github Repo](https://img.shields.io/badge/GitHub_Project_Board-Deployed-blue?logo=github)](https://github.com/jenho-webdev/JATE_Text_Editor)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jenho-webdev/Jate_Text_Editor/blob/main/LICENSE)
 
